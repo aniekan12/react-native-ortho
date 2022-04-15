@@ -7,7 +7,7 @@ import { Ortho } from './SDK';
 export default function App() {
 
   const config = {
-    'short-url':'core-flow',
+    'short-url':'<your-short-url>',
     'amount':100000
   }
 
