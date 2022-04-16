@@ -1,5 +1,5 @@
 
-# React-Native-Okra-Webview
+# React-Native-Ortho
 Official Ortho SDK for React Native/Expo applications. Don't forget to star ✨
 
 ### About Ortho
