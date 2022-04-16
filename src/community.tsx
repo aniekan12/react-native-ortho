@@ -1,18 +1,8 @@
-import { useState, useEffect } from 'react'
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Modal, SafeAreaView, ActivityIndicator, TouchableOpacity, Alert, ColorPropType } from 'react-native';
-import { WebView, WebViewNavigation } from 'react-native-webview';
-
-export interface CommunityProps {
-    color?: string;
-    enterprise?: boolean;
-    slug: string;
-    config: {};
-    callback: (e: callbackProps) => void;
-}
-
-export type callbackProps = { callback: string; response: { serviceResponse: any; orthoMeta: any } }
-
+import React, { useState, useEffect } from 'react' 
+import { Text, View, Modal,  ActivityIndicator, TouchableOpacity, Alert } from 'react-native';
+import { WebView } from 'react-native-webview';
+import { CommunityProps } from './types'
+ 
 export default function Community(props: CommunityProps) {
     const [isLoading, setisLoading] = useState(true);
     const [toggleModal, setToggleModal] = useState(true);
@@ -32,12 +22,12 @@ export default function Community(props: CommunityProps) {
                     setHtmlRaw(body)
                     setToggleModal(true)
                 } else {
-                    alert('seems like something went wrong')
+                     Alert.alert('seems like something went wrong')
                 }
 
             })
             .catch((error) => {
-                alert(`error: ${error}`);
+                callback(error)
             });
 
 
