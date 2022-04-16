@@ -83,7 +83,7 @@ export default App;
 
 |Name                   | Type           | Required            | Default Value       | Description         |
 |-----------------------|----------------|---------------------|---------------------|---------------------|
-|  `slug `            | `String`       | true                |     `nill`                | slug for service you want to integrate
+|  `slug `            | `String`       | true                |     `nill`                | slug for service you want to integrate, see slug list [here](https://github.com/OrthoHQ/ortho-community-checkout)
 |  `config `               | `object`       | true                |    `nill`                 | config of app you intend to integrate
 |  `color `             | `String`       | false                |          `yellow`           | color of app
 |  `callback `               | `Function`       | true               |`nill`         | callback on event fired
