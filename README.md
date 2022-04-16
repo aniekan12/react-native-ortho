@@ -83,10 +83,10 @@ export default App;
 
 |Name                   | Type           | Required            | Default Value       | Description         |
 |-----------------------|----------------|---------------------|---------------------|---------------------|
-|  `slug `            | `String`       | true                |     `nill`                | Your app id from your Okra Dashboard.
-|  `config `               | `object`       | true                |    `nill`                 | Your public key from your Okra Dashboard.
-|  `color `             | `String`       | false                |          `yellow`           | Your token from your Okra Dashboard.
-|  `callback `               | `Function`       | true               |`nill`         | production(live)/production-sandbox (test)
+|  `slug `            | `String`       | true                |     `nill`                | slug for service you want to integrate
+|  `config `               | `object`       | true                |    `nill`                 | config of app you intend to integrate
+|  `color `             | `String`       | false                |          `yellow`           | color of app
+|  `callback `               | `Function`       | true               |`nill`         | callback on event fired
 
 
 ## Thanks & Credits
