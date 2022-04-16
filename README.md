@@ -79,7 +79,7 @@ export default App;
 ```
 
 
-## Okra.community Options
+## Ortho.community Options
 
 |Name                   | Type           | Required            | Default Value       | Description         |
 |-----------------------|----------------|---------------------|---------------------|---------------------|
