@@ -7,7 +7,7 @@ Ortho help you integrate SDK with ease, connect to services like Paystack, Okra,
 
  ## Before getting started
 - Checkout our [Ortho-community-checkout](https://github.com/OrthoHQ/ortho-community-checkout) to see service we support and needed configs.
-- Can't find a service you need? try contributing to Ortho and make it much awesome [sandbox customer](https://github.com/OrthoHQ/ortho-community-checkout/blob/main/contributing.md)
+- Can't find a service you need? try contributing to Ortho and make it much awesome [Ortho-community-checkout](https://github.com/OrthoHQ/ortho-community-checkout/blob/main/contributing.md)
 ## Installing
 
 Using npm:
