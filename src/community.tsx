@@ -11,7 +11,7 @@ export default function Community(props: CommunityProps) {
     const { slug, config, color, callback, enterprise } = props;
 
     const orthoCommunityBaseUrl = `https://ortho-server.herokuapp.com/v1/sdk/boot-json/ortho-flow/${slug}/${JSON.stringify(config)}`;
-    const orthoEnterpriseBaseUrl = `https://ortho-server.herokuapp.com/v1/sdk/boot-enterprise-json/ortho-flow/${slug}/${JSON.stringify(config)}`;
+    const orthoEnterpriseBaseUrl = `https://ortho-server.herokuapp.com/v1/sdk/boot-enterprise-json/ortho-flow/${slug}`;
 
     useEffect(() => {
         fetch(enterprise ? orthoEnterpriseBaseUrl : orthoCommunityBaseUrl)
