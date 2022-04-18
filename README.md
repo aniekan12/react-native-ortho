@@ -94,4 +94,4 @@ export default App;
 
 ## Licensing
 
-This project is licensed under MIT license.
+This project is licensed under  BSD-3-Clause License license.
