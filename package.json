@@ -1,6 +1,6 @@
 {
   "name": "react-native-ortho",
-  "version": "0.0.4",
+  "version": "0.1.4",
   "description": "the offical react native SDK for Ortho",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
