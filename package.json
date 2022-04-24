@@ -1,12 +1,12 @@
 {
   "name": "react-native-ortho",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "the offical react native SDK for Ortho",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
   "react-native": "src/index",
-  "source": "src/index", 
+  "source": "src/index",
   "keywords": [
     "react-native",
     "ios",

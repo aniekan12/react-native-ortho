@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Modal } from 'react-native';
 import { WebView, WebViewNavigation } from 'react-native-webview';
 import { Ortho } from 'react-native-ortho';
